@@ -1,10 +1,14 @@
-// https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
+import * as React from "react";
+import { CacheProvider } from "@emotion/react";
+import getEmotionCache from "./src/getEmotionCache";
+import ThemeRoot from "./src/ThemeRoot";
 
-const { EMOJIS } = require("./constants");
+const cache = getEmotionCache();
 
-exports.onInitialClientRender = (_, pluginOptions) => {
-  const { message, emoji } = pluginOptions;
-  const selectedEmoji = EMOJIS[emoji];
-
-  alert(`${selectedEmoji} ${message} ${selectedEmoji}`);
+export const wrapRootElement = ({ element }) => {
+  return (
+    <CacheProvider value={cache}>
+      <ThemeRoot>{element}</ThemeRoot>
+    </CacheProvider>
+  );
 };

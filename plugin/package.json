@@ -21,7 +21,12 @@
   },
   "homepage": "https://github.com/queen-raae/gatsby-theme-mui#readme",
   "devDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "@emotion/react": "11.8.1",
+    "@emotion/server": "11.4.0",
+    "@emotion/styled": "11.8.1",
+    "@mui/material": "5.5.0"
+  },
   "peerDependencies": {
     "gatsby": "^3.0.0 || ^4.0.0"
   }
