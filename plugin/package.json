@@ -1,8 +1,8 @@
 {
-  "name": "@raae/gatsby-plugin-starter",
+  "name": "@raae/gatsby-theme-mui",
   "version": "1.6.2",
   "author": "@raae",
-  "description": "A starter to bootstrap your next Gatsby Plugin — automatic release to npm with semantic-release out of the box 📦 🪄",
+  "description": "Adds MUI (mui.com) to your Gatsby site",
   "keywords": [
     "gatsby",
     "gatsby-plugin"
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/queen-raae/gatsby-plugin-starter.git"
+    "url": "git+https://github.com/queen-raae/gatsby-theme-mui.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/queen-raae/gatsby-plugin-starter/issues"
+    "url": "https://github.com/queen-raae/gatsby-theme-mui/issues"
   },
-  "homepage": "https://github.com/queen-raae/gatsby-plugin-starter#readme",
+  "homepage": "https://github.com/queen-raae/gatsby-theme-mui#readme",
   "devDependencies": {},
   "dependencies": {},
   "peerDependencies": {
